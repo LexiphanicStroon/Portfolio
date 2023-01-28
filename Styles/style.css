@@ -42,13 +42,15 @@ h2 {
 }
 
 #contact {
-    height: 40px;
-    width: 10%;
+    height: 80px;
+    width: 12%;
     color: #df740c;
+    font-size: 20px;
+    border-radius: 12px;
 }
 
 p {
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 ul {
