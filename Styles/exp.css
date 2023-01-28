@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+
+@font-face {
+    font-family: TRON;
+    src: url(/assets/font/TRON.TTF);
+}
+
+body {
+    background: #0c141f;
+}
+
+* {
+    margin: 0;
+    color: #6fc3df;
+    font-family: 'Ubuntu Mono', monospace;;    
+}
+
+.top-nav ul {
+    display: flex;
+    gap: 14px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-nav {
+    margin: 10px;
+}
+
+button {
+    height: 40px;
+    width: 6%;
+    color: #df740c;
+}
+
+#resume {
+    height: 40px;
+    width: 90px;
+    border: solid 2px #6fc3df;
+    border-radius: 6px;
+}
+
+#resume:hover {
+    cursor: pointer;
+    font-size: 16px;
+    border: solid 2px #6fc3df;
+    border-radius: 6px;
+}
+
+.container {
+    margin: 200px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #e6ffff;
+}
+
+p {
+    margin-bottom: 20px;
+}
+

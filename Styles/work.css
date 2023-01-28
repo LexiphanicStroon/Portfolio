@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+
+@font-face {
+    font-family: TRON;
+    src: url(/assets/font/TRON.TTF);
+}
+
+body {
+    background: #0c141f;
+}
+
+* {
+    margin: 0;
+    color: #6fc3df;
+    font-family: 'Ubuntu Mono', monospace;;    
+}
+
+.top-nav ul {
+    display: flex;
+    gap: 14px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-nav {
+    margin: 10px;
+}
+
+button {
+    height: 40px;
+    width: 6%;
+    color: #df740c;
+}
+
+#resume {
+    height: 40px;
+    width: 90px;
+    border: solid 2px #6fc3df;
+    border-radius: 6px;
+}
+
+#resume:hover {
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 6px;
+    border: solid 2px #6fc3df;
+}
+
+
+li {
+    margin: 6px;
+}
+
+  .effect-five > a {
+    padding: 0 5px;
+    box-shadow: inset 0 0 0 0 white;
+    transition: all 0.4s ease-in-out 0s;
+  }
+
+  .effect-five > a:hover {
+        box-shadow: inset -800px 0 0 0 white;
+        color: #0c141f;
+  }
+
+  .main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    margin-bottom: 19px;
+  }
+
+p {
+    margin-bottom: 50px;
+}
