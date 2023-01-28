@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300&display=swap');
 @font-face {
     font-family: TRON;
     src: url(TRON.TTF);
@@ -12,7 +12,7 @@ body {
 * {
     margin: 0;
     color: #6fc3df;
-    font-family: 'Ubuntu Mono', monospace;;    
+    font-family: 'Ubuntu Mono', monospace; 
 }
 
 .header {
@@ -27,18 +27,25 @@ body {
     margin: 10px;
 }
 
+.top-nav a {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 200;
+}
+
 a {
     text-decoration: none;
 }
 
+
 h1 {
 font-family: TRON;
-margin-top: 6px;
-margin-bottom: -4px;
+margin-top: -36px;
+color: #e6ffff;
+margin-bottom: -8px;
 }
 
 h2 {
-    margin-bottom: 18px;
+    margin-bottom: 36px;
 }
 
 #contact {
